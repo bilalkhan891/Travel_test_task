@@ -41,6 +41,8 @@ $pageurl = $explodedurl[5];
 		<link rel="stylesheet" href="css/media-query.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-autocomplete/1.0.7/jquery.auto-complete.min.css" />
 
+		<link rel="stylesheet" type="text/css" href="css/multiple-select.css">
+
 <style type="text/css">
 	.ui-front {
 		background: #fff;
@@ -50,6 +52,7 @@ $pageurl = $explodedurl[5];
     list-style: none;
     padding: 10px;
 }
+
 </style>
 	</head>
 	<body>

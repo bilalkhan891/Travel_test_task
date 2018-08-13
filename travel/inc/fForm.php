@@ -1,5 +1,5 @@
 <!-- start tab flights -->
- <div class="tab-pane <?php if ($pageurl == 'index.php' || $pageurl == 'flight.php'){ echo 'active'; }?>" id="flights">
+ <div class="tab-pane <?php if ($pageurl == 'flight.php'){ echo 'active'; }?>" id="flights">
 	 <form>
 	  <!-- start destination -->
 	  <div class="form-row">										  

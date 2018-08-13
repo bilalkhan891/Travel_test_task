@@ -5,10 +5,10 @@
 								    	   <a class="nav-link" href="#tours" data-toggle="tab">Tours</a>
 								      </li>
 								      <li class="nav-item">
-								      	<a class="nav-link <?php if ($pageurl == 'index.php' || $pageurl == 'flight.php'){ echo 'active'; }?>" href="#flights" data-toggle="tab">Flights</a>
+								      	<a class="nav-link <?php if ($pageurl == 'flight.php'){ echo 'active'; }?>" href="#flights" data-toggle="tab">Flights</a>
 								      </li>
 								      
-									  <li class="nav-item <?php if ($pageurl == 'hotel.php'){ echo 'active'; }?>">
+									  <li class="nav-item <?php if ($pageurl == 'index.php' || $pageurl == 'hotel.php'){ echo 'active'; }?>">
 								    	   <a class="nav-link" href="#hotels" data-toggle="tab">Hotels</a>
 								      </li>
 								   </ul>
