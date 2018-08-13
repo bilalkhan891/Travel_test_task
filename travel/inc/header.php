@@ -18,7 +18,7 @@ $pageurl = $explodedurl[5];
 <head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>Go Travel</title>
+		<title>Travel</title>
 		<link rel="icon" href="../images/icon/favicon.png" type="image/png">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="author" content="del-code.com" />
@@ -39,7 +39,18 @@ $pageurl = $explodedurl[5];
 		<!-- main css -->
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/media-query.css">
-		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-autocomplete/1.0.7/jquery.auto-complete.min.css" />
+
+<style type="text/css">
+	.ui-front {
+		background: #fff;
+    z-index: 1500 !important;
+    background: #fff;
+    width: fit-content;
+    list-style: none;
+    padding: 10px;
+}
+</style>
 	</head>
 	<body>
 

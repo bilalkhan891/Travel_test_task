@@ -80,6 +80,12 @@
 		
 		<!-- jQuery -->
 		<script src="js/jquery-3.3.1.min.js"></script>
+<script
+  src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"
+  integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="
+  crossorigin="anonymous"></script>
+
+
 		<script src="js/migrate.min.js"></script>
 		
 		<!-- Stellar -->
@@ -105,7 +111,9 @@
 		
 		<!-- Main JS -->
 		<script src="js/main.js"></script>
-		
+		<script type="text/javascript" src="js/localdata.js"></script>
+		<script type="text/javascript" src="js/search.js"></script>
+	 
 	</body>
 
 <!-- Mirrored from del-code.com/go-travel/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 09 Aug 2018 05:31:28 GMT -->

@@ -5,7 +5,7 @@
 		<div class="col-sm-12">
 		 <div class="form-group">
 			<label>City:</label>
-			<input type="text" class="form-control from-place" placeholder="Istanbul, Turkey"/>
+			<input id = "destination" name = "mycity" type="text" autocomplete="nope" class="form-control from-place" placeholder="Destination"/>
 		 </div>
 		</div>
 	  </div>
@@ -80,3 +80,4 @@
 	  
 	</form>
  </div>
+

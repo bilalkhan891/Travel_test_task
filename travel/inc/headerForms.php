@@ -18,10 +18,10 @@
 									
 									 <!-- start tab flights -->
 									 <!-- end tab flights -->
+									 <?php include_once('inc/fForm.php'); ?>
 									 
 									  <!-- start tab trains -->
 									 <?php include_once('inc/tForm.php'); ?>
-									 <?php include_once('inc/fForm.php'); ?>
 									 <!-- end tab trains -->
 									 
 									 <!-- start tab hotels -->	

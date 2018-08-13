@@ -1,6 +1,6 @@
 <?php include_once('inc/header.php'); ?>
 
-		<div class="delcd-hero">
+<div class="delcd-hero">
 			<div class="delcd-overlay"></div>
 			<!-- header cover img -->
 			<div class="delcd-cover" data-stellar-background-ratio="0.5" style="background-image: url(../images/large/hotel/pexels-photo-261102.jpeg);">
@@ -208,5 +208,7 @@
 				
 			</div><!-- end container -->
 		</div><!-- end section -->
-		
+
 <?php include_once('inc/footer.php') ?>
+
+
