@@ -42,15 +42,14 @@ if (isset($_POST['hotelsdata'])) {
 		"_ip" => "203.99.184.165",
 		"_data" => array (
 			"_token" => "vYup0rwhpalTe5O1zriaihp2SPAGj311eSF3Cyc6",
-			"url" => "localhost:80/travel%20test%20task/travel/inc/formSubmit.php",
+			"url" => "https://southtravels.com/searchresponseapi",
 			"destination" => $destination,
-			"hotelcheckin" => "8-8-2018",
-			"hotelcheckout" => "8-9-2018",
+			"hotelcheckin" => $checkin,
+			"hotelcheckout" => $checkout,
 			"rooms" => $rooms,
 			"guests_count" => $guestCount,
 			"adult" => $adults,
-			"child" => $childs,
-			"childage1" => "2"
+			"child" => $childs
 		)
 	);
 

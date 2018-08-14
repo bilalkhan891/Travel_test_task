@@ -76,6 +76,7 @@
 	<!-- END delcd-wrapper -->
 
 		<!-- Modernizr JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
 		<script src="js/modernizr-3.6.0.min.js"></script>
 		
 		<!-- jQuery -->
@@ -115,6 +116,7 @@
 		<script type="text/javascript" src="js/search.js"></script>
 		<script type="text/javascript" src="js/custom.js"></script>
 		<script src="js/multiple-select.js"></script>
+
 	</body>
 
 <!-- Mirrored from del-code.com/go-travel/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 09 Aug 2018 05:31:28 GMT -->
