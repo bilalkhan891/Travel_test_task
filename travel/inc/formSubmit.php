@@ -23,6 +23,8 @@ function get_client_ip() {
 
 
 
+
+
 if (isset($_POST['hotelsdata'])) {
 	
 	$destination = $_POST['destination'];
@@ -31,9 +33,10 @@ if (isset($_POST['hotelsdata'])) {
 	$rooms = $_POST['rooms'];
 	$adults = $_POST['adults'];
 	$childs = $_POST['childs'];
-	$childsages = $_POST['childsages'];
 
 	$client_ip = get_client_ip();
+
+
 
 	$guestCount = $adults." Adult + ". $childs ." Child";
 	
@@ -54,13 +57,28 @@ if (isset($_POST['hotelsdata'])) {
 	);
 
 
+	for ($i = 0; $i < $childs; $i++ ) {
+		if (isset($_POST['childage'.($i+1)])) { 
+
+			$key = "childage".($i+1);
+			$value = $_POST[$key];
+			$return['_data'][$key] = $value;
+			// echo $value;
+
+		}
+		
+	}
+
+
+
+
+
 	echo "<pre>";
 	var_dump($return);
 	echo '</pre></ br>';
 
 
 	function curlRequest($return){
-		 
 		$data = base64_encode(bin2hex(json_encode($return)));
 
 
@@ -73,13 +91,16 @@ if (isset($_POST['hotelsdata'])) {
 		return $output;
 	}
 
+
 	echo '</ br></ br>';
+	echo '<pre>';
+	var_dump(curlRequest($return));
 
 
 
-	$data = curlRequest($return);
+	// $data = curlRequest($return);
 
-	var_dump($data);
+	// var_dump($data);
 
 
 }
